@@ -1,0 +1,1 @@
+ChelmWest holds a portfolio of 50k residential mortgages.  How is this performing? How could it be improved?

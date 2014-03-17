@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'alloy@1.4' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose cache add [ 'alloy@1.4', null ]
+5 verbose cache add name=undefined spec="alloy@1.4" args=["alloy@1.4",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'alloy@1.4',
+6 verbose parsed url   path: 'alloy@1.4',
+6 verbose parsed url   href: 'alloy@1.4' }
+7 verbose cache add name="alloy" spec="1.4" args=["alloy","1.4"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '1.4',
+8 verbose parsed url   path: '1.4',
+8 verbose parsed url   href: '1.4' }
+9 verbose addNamed [ 'alloy', '1.4' ]
+10 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+11 silly lockFile 0b32d5ec-alloy-1-4 alloy@1.4
+12 verbose lock alloy@1.4 /Users/jwightman/.npm/0b32d5ec-alloy-1-4.lock
+13 silly addNameRange { name: 'alloy', range: '>=1.4.0-0 <1.5.0-0', hasData: false }
+14 verbose url raw alloy
+15 verbose url resolving [ 'https://registry.npmjs.org/', './alloy' ]
+16 verbose url resolved https://registry.npmjs.org/alloy
+17 info trying registry request attempt 1 at 16:03:58
+18 verbose etag "AFZGRF00BLRVJSHOTZOEZD3SJ"
+19 http GET https://registry.npmjs.org/alloy
+20 http 304 https://registry.npmjs.org/alloy
+21 silly registry.get cb [ 304,
+21 silly registry.get   { date: 'Sat, 18 Jan 2014 21:03:59 GMT',
+21 silly registry.get     server: 'Apache',
+21 silly registry.get     connection: 'Keep-Alive',
+21 silly registry.get     'keep-alive': 'timeout=10, max=50',
+21 silly registry.get     etag: '"AFZGRF00BLRVJSHOTZOEZD3SJ"',
+21 silly registry.get     vary: 'Accept' } ]
+22 verbose etag alloy from cache
+23 silly addNameRange number 2 { name: 'alloy', range: '>=1.4.0-0 <1.5.0-0', hasData: true }
+24 silly addNameRange versions [ 'alloy',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.1.11',
+24 silly addNameRange     '0.1.12',
+24 silly addNameRange     '0.1.13',
+24 silly addNameRange     '0.1.14',
+24 silly addNameRange     '0.1.15',
+24 silly addNameRange     '0.1.16',
+24 silly addNameRange     '0.1.17',
+24 silly addNameRange     '0.1.19',
+24 silly addNameRange     '0.1.20',
+24 silly addNameRange     '0.1.21',
+24 silly addNameRange     '0.1.22',
+24 silly addNameRange     '0.1.23',
+24 silly addNameRange     '0.1.24',
+24 silly addNameRange     '0.1.25',
+24 silly addNameRange     '0.1.26',
+24 silly addNameRange     '0.1.27',
+24 silly addNameRange     '0.1.28',
+24 silly addNameRange     '0.1.29',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.2.11',
+24 silly addNameRange     '0.2.12',
+24 silly addNameRange     '0.2.13',
+24 silly addNameRange     '0.2.14',
+24 silly addNameRange     '0.2.15',
+24 silly addNameRange     '0.2.16',
+24 silly addNameRange     '0.2.17',
+24 silly addNameRange     '0.2.18',
+24 silly addNameRange     '0.2.19',
+24 silly addNameRange     '0.2.20',
+24 silly addNameRange     '0.2.21',
+24 silly addNameRange     '0.2.22',
+24 silly addNameRange     '0.2.23',
+24 silly addNameRange     '0.2.24',
+24 silly addNameRange     '0.2.25',
+24 silly addNameRange     '0.2.26',
+24 silly addNameRange     '0.2.27',
+24 silly addNameRange     '0.2.28',
+24 silly addNameRange     '0.2.29',
+24 silly addNameRange     '0.2.30',
+24 silly addNameRange     '0.2.31',
+24 silly addNameRange     '0.2.32',
+24 silly addNameRange     '0.2.33',
+24 silly addNameRange     '0.2.34',
+24 silly addNameRange     '0.2.35',
+24 silly addNameRange     '0.2.35-1',
+24 silly addNameRange     '0.2.35-2',
+24 silly addNameRange     '0.2.36',
+24 silly addNameRange     '0.2.37',
+24 silly addNameRange     '0.2.37-1',
+24 silly addNameRange     '0.2.38',
+24 silly addNameRange     '0.2.39',
+24 silly addNameRange     '0.2.39-1',
+24 silly addNameRange     '0.2.40',
+24 silly addNameRange     '0.2.41',
+24 silly addNameRange     '0.2.42',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '1.0.0-cr',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0-alpha',
+24 silly addNameRange     '1.1.0-beta',
+24 silly addNameRange     '1.1.0-cr',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1-alpha',
+24 silly addNameRange     '1.1.1-cr',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2-alpha',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.1.3-alpha',
+24 silly addNameRange     '1.1.3-cr',
+24 silly addNameRange     '1.1.3',
+24 silly addNameRange     '1.2.0-alpha',
+24 silly addNameRange     '1.2.0-alpha2',
+24 silly addNameRange     '1.2.0-alpha3',
+24 silly addNameRange     '1.2.0-alpha4',
+24 silly addNameRange     '1.2.0-alpha5',
+24 silly addNameRange     '1.2.0-alpha6',
+24 silly addNameRange     '1.2.0-beta',
+24 silly addNameRange     '1.2.1-cr',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1-cr2',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2-beta',
+24 silly addNameRange     '1.2.2-cr',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.3.0-alpha',
+24 silly addNameRange     '1.3.0-alpha6',
+24 silly addNameRange     '1.3.0-alpha7',
+24 silly addNameRange     '1.3.0-beta',
+24 silly addNameRange     '1.3.0-cr',
+24 silly addNameRange     '1.3.0-cr2',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1-alpha',
+24 silly addNameRange     '1.3.1-beta',
+24 silly addNameRange     '1.3.1-beta2',
+24 silly addNameRange     '1.3.1-beta3' ] ]
+25 silly lockFile 0b32d5ec-alloy-1-4 alloy@1.4
+26 silly lockFile 0b32d5ec-alloy-1-4 alloy@1.4
+27 error Error: No compatible version found: alloy@'>=1.4.0-0 <1.5.0-0'
+27 error Valid install targets:
+27 error ["1.0.0-cr","1.1.0-alpha","1.1.0-beta","1.1.0-cr","1.1.1-alpha","1.1.1-cr","1.1.2-alpha","1.1.3-alpha","1.1.3-cr","1.2.0-alpha","1.2.0-alpha2","1.2.0-alpha3","1.2.0-alpha4","1.2.0-alpha5","1.2.0-alpha6","1.2.0-beta","1.2.1-cr","1.2.1-cr2","1.2.2-beta","1.2.2-cr","1.3.0-alpha","1.3.0-alpha6","1.3.0-alpha7","1.3.0-beta","1.3.0-cr","1.3.0-cr2","1.3.1-alpha","1.3.1-beta","1.3.1-beta2","1.3.1-beta3","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.10","0.1.11","0.1.12","0.1.13","0.1.14","0.1.15","0.1.16","0.1.17","0.1.19","0.1.20","0.1.21","0.1.22","0.1.23","0.1.24","0.1.25","0.1.26","0.1.27","0.1.28","0.1.29","0.2.0","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12","0.2.13","0.2.14","0.2.15","0.2.16","0.2.17","0.2.18","0.2.19","0.2.20","0.2.21","0.2.22","0.2.23","0.2.24","0.2.25","0.2.26","0.2.27","0.2.28","0.2.29","0.2.30","0.2.31","0.2.32","0.2.33","0.2.34","0.2.35","0.2.35-1","0.2.35-2","0.2.36","0.2.37","0.2.37-1","0.2.38","0.2.39","0.2.39-1","0.2.40","0.2.41","0.2.42","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","1.0.0-cr","1.0.0","1.1.0-alpha","1.1.0-beta","1.1.0-cr","1.1.0","1.1.1-alpha","1.1.1-cr","1.1.1","1.1.2-alpha","1.1.2","1.1.3-alpha","1.1.3-cr","1.1.3","1.2.0-alpha","1.2.0-alpha2","1.2.0-alpha3","1.2.0-alpha4","1.2.0-alpha5","1.2.0-alpha6","1.2.0-beta","1.2.1-cr","1.2.0","1.2.1-cr2","1.2.1","1.2.2-beta","1.2.2-cr","1.2.2","1.3.0-alpha","1.3.0-alpha6","1.3.0-alpha7","1.3.0-beta","1.3.0-cr","1.3.0-cr2","1.3.0","1.3.1-alpha","1.3.1-beta","1.3.1-beta2","1.3.1-beta3"]
+27 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+27 error     at next (/usr/local/lib/node_modules/npm/lib/cache.js:698:17)
+27 error     at /usr/local/lib/node_modules/npm/lib/cache.js:675:5
+27 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+27 error     at Object.oncomplete (fs.js:107:15)
+28 error If you need help, you may report this log at:
+28 error     <http://github.com/isaacs/npm/issues>
+28 error or email it to:
+28 error     <npm-@googlegroups.com>
+29 error System Darwin 12.5.0
+30 error command "node" "/usr/local/bin/npm" "install" "-g" "alloy@1.4"
+31 error cwd /Users/jwightman/Dropbox/TitaniumWorkspace/killercases
+32 error node -v v0.10.13
+33 error npm -v 1.3.2
+34 verbose exit [ 1, true ]
