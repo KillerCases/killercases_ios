@@ -8,7 +8,7 @@
     <property name="acs-api-key-development" type="string">uY5NVO6MbaoL3aEUdteg9c0sr8kKM9hn</property>
     <id>com.killer-cases.killercases</id>
     <name>killercases</name>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <publisher>Lamdin Labs</publisher>
     <url>http://killer-cases.com</url>
     <description>not specified</description>

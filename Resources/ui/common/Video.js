@@ -2,7 +2,7 @@ function Video(questionIndex){
 	
 	var self = Ti.UI.createWindow({
 		backgroundColor:'white',
-    	barColor:'#940315'
+    	barColor:'#FF3A2D'
 	});
 
 	/*
