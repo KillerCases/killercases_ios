@@ -1,7 +1,27 @@
 Welcome to your Appcelerator Titanium Mobile Project
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+### HOW TO INSTALL NPM ###
+
+echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
+. ~/.bashrc
+mkdir ~/local
+mkdir ~/node-latest-install
+cd ~/node-latest-install
+curl http://nodejs.org/dist/node-latest.tar.gz | tar xz --strip-components=1
+./configure --prefix=~/local
+make install # ok, fine, this step probably takes more than 30 seconds...
+curl https://npmjs.org/install.sh | sh
+
+Not npm will uninstall when terminal is closed
+
+## BUILD TO SIMULATOR ##
+
+titanium build --platform ios --project-dir /Users/jwightman/Dropbox/TitaniumWorkspace/killercases_ios
+
+
+## DISTRIBUTE TO APPSTORE ##
+
+titanium build --platform ios --project-dir /Users/jwightman/Dropbox/TitaniumWorkspace/killercases_ios --target dist-appstore --distribution-name 'Johanna Wightman (YRY46VMT8V)' --pp-uuid 16B898C1-0970-42B6-B1FA-69CFC84EC8F7
 
 
 
